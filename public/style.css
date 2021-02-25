@@ -1,0 +1,44 @@
+ul{
+    list-style: none;
+}
+
+main{
+    width: 320px;
+    margin: 32px,auto;
+
+}
+h1{
+    font-size: 24px;
+    text-align: center;
+    margin:0,0,16px;
+}
+
+li{
+    display: flex;
+}
+
+.done{
+    text-decoration: line-through;
+    color: #cccccc;
+}
+
+.delete{
+    color:#ccc;
+    cursor: pointer;
+}
+
+input[type="text"]{
+    widows: 100%;
+    padding:4px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+}
+
+input[type="checkbox"]{
+    margin-right: 8px;
+}
+
+.delete-form{
+    margin-left: 50px;
+    padding-left:8px;
+}
